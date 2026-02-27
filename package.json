@@ -1,0 +1,24 @@
+{
+    "name": "orbit-ballpit",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "bunx vite",
+        "build": "bunx vite build",
+        "preview": "bunx vite preview"
+    },
+    "dependencies": {
+        "mathjs": "^15.1.0",
+        "matter-js": "^0.20.0",
+        "react": "^19.2.0",
+        "react-dom": "^19.2.0"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-react-swc": "^4.2.2",
+        "vite": "npm:rolldown-vite@7.2.5"
+    },
+    "overrides": {
+        "vite": "npm:rolldown-vite@7.2.5"
+    }
+}
